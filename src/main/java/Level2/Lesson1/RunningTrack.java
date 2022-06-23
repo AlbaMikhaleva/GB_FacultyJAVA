@@ -1,18 +1,28 @@
 package Level2.Lesson1;
 
+import Level2.Lesson1.Interface.Competitors;
 import Level2.Lesson1.Interface.Obstacles;
 
 public class RunningTrack implements Obstacles {
 
-    final int lght;
+    private final int LGHT;
 
-    public RunningTrack(int lght) {
-        this.lght = lght;
+    public RunningTrack(int LGHT) {
+        this.LGHT = LGHT;
+    }
+
+    public int getDistnceSize() {
+        return LGHT;
     }
 
     @Override
-    public int getDistanceSize() {
-        return lght;
+    public String toString() {
+        return "Беговая Дорожка";
+    }
+
+    @Override
+    public boolean passObstacle(Competitors competitor, Obstacles obstacles) {
+        return competitor.run(competitor.getMaxLght(), obstacles.getDistnceSize());
     }
 
 }

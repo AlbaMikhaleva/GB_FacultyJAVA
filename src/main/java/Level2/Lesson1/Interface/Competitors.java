@@ -1,34 +1,18 @@
 package Level2.Lesson1.Interface;
 
-public interface Competitors {
+public interface Competitors extends Jumper, Runner {
 
-     default boolean jump(int maxHeight, int distanceSize, String type) {
-        if (maxHeight >= distanceSize) {
-            System.out.printf("%s перепрыгнул стену высотой %s метров.", type, distanceSize);
-            System.out.println();
-            return false;
-        } else {
-            System.out.printf("%s НЕ перепрыгнул стену высотой %s метров и сходит с дистанции.", type, distanceSize);
-            System.out.println();
-            return true;
-        }
+    int getMaxLght();
+
+    int getMaxHeight();
+
+    @Override
+    default boolean jump(int maxHeight, int distanceSize) {
+        return maxHeight >= distanceSize;
     }
 
-
-     default boolean run(int maxLght, int distanceSize, String type) {
-        if (maxLght >= distanceSize) {
-            System.out.printf("%s пробежал %s метров.", type, distanceSize);
-            System.out.println();
-            return false;
-        } else {
-            System.out.printf("%s НЕ пробежал %s метров и сходит с дистанции.", type, distanceSize);
-            System.out.println();
-            return true;
-        }
-
+    @Override
+    default boolean run(int maxLght, int distanceSize) {
+        return maxLght >= distanceSize;
     }
-
-     int getMaxLght ();
-     int getMaxHeight();
-
 }

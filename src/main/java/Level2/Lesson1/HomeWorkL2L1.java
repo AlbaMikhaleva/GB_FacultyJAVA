@@ -8,50 +8,47 @@ public class HomeWorkL2L1 {
     public static void main(String[] args) {
 
         Competitors[] competitors = createArrayCompetitors();
-        Obstacles[][] obstacles = createArrayObstacles();
+        Obstacles[] obstacles = createArrayObstacles();
 
-        passObstacles(competitors, obstacles);
-
+        passAllObstacles(competitors, obstacles);
 
     }
 
-// создание массива Участники
+    // метод прохождения препятствий
+    private static void passAllObstacles(Competitors[] competitors, Obstacles[] obstacles) {
+        for (Competitors c: competitors
+             ) {
+            for (Obstacles obstacle : obstacles) {
+                if (obstacle.passObstacle(c, obstacle)) {
+                    System.out.printf("Участник %s приодалел препятствие %s %s метров и идет дальше", c, obstacle, obstacle.getDistnceSize());
+                    System.out.println();
+                } else {
+                    System.out.printf("Участник %s НЕ приодалел препятствие %s %s метров и сходит с дистанции", c, obstacle, obstacle.getDistnceSize());
+                    System.out.println();
+                    break;
+                }
+            }
+
+        }
+    }
+
+    // создание массива Участники
     private static Competitors[] createArrayCompetitors() {
 
-        Human human = new Human(5, 3000);
-        Cat cat = new Cat(7, 5000);
-        Robot robot = new Robot(1, 10000);
+        Human human = new Human(3, 3000);
+        Cat cat = new Cat(5, 3000);
+        Robot robot = new Robot(1, 5000);
 
         return new Competitors[]{human, cat, robot};
 
     }
 
-//создание массива Препятствия
-    private static Obstacles[][] createArrayObstacles() {
+    //создание массива Препятствия
+    private static Obstacles[] createArrayObstacles() {
 
-        Wall[] walls = new Wall[]{new Wall(2), new Wall(6), new Wall(10)};
-        RunningTrack[] tracks = new RunningTrack[]{new RunningTrack(2000), new RunningTrack(5000), new RunningTrack(9000)};
-
-        return new Obstacles[][]{walls, tracks};
-
+        return new Obstacles[]{new Wall(2), new RunningTrack(1000), new Wall(5), new RunningTrack(5000), new Wall(8), new RunningTrack(7000)};
     }
 
-// метод для прохождения препятствий
-    public static void passObstacles(Competitors[] competitors, Obstacles[][] obstacles) {
-        for (Competitors competitor : competitors) {
-
-            for (int i = 0; i < obstacles[0].length; i++) { //цикл прохождения препятствий (проходят по очереди Стена-Дорожка)
-                if (competitor.jump(competitor.getMaxHeight(), obstacles[0][i].getDistanceSize(), competitor.toString())) {
-                    break;
-                } else {
-                    if (competitor.run(competitor.getMaxLght(), obstacles[1][i].getDistanceSize(), competitor.toString())) {
-                        break;
-                    }
-                }
-            }
-        }
-
-    }
 }
 
 

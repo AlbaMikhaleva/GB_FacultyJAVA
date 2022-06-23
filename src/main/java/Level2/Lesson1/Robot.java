@@ -28,7 +28,7 @@ public class Robot implements Competitors {
         return "Робот";
     }
 
-    @Override
+  /*  @Override
     public boolean jump(int maxHeight, int distanceSize, String type) {
         return Competitors.super.jump(maxHeight, distanceSize, type);
     }
@@ -36,5 +36,5 @@ public class Robot implements Competitors {
     @Override
     public boolean run(int maxLght, int distanceSize, String type) {
         return Competitors.super.run(maxLght, distanceSize, type);
-    }
+    }*/
 }
