@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="309b2058-197c-4bf5-8f8b-271419cd590b" name="Changes" comment="Уровень 3. Задание 4 (ABC).">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level1/Lesson1/HomeWorkApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Level2/Lesson6/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Level2/Lesson2/HomeWorkL2L2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level2/Lesson2/HomeWorkL2L2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Level2/Lesson4/HomeWorkL2L4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Level2/Lesson4/HomeWorkL2L4.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="level1.lesson8(Calc)" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="AlbaMikhaleva" />
+        <option name="repository" value="GB_FacultyJAVA" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2eda8774-6302-4752-9fce-49e39b3ab468" />
+        <option name="url" value="https://github.com/AlbaMikhaleva/GB_FacultyJAVA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29WQZY7hALMB6r2NoyLEaKDU7Cl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Lenovo T490s/IdeaProjects/GB_FacultyJAVA",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Level2.Lesson3" />
+      <recent name="Level2.Lesson2" />
+      <recent name="Level2.Lesson1.Interface" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo T490s\IdeaProjects\GB_FacultyJAVA\src\main\java\Level2\Lesson1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HomeWorkL3L4">
+    <configuration name="HomeWorkL2L4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level2.Lesson4.HomeWorkL2L4" />
+      <module name="GB_FacultyJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level2.Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWorkL3L4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level3.Lesson4.HomeWorkL3L4" />
+      <module name="GB_FacultyJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level3.Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Level1.Lesson8.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level1.Lesson8.Calculator" />
+      <module name="GB_FacultyJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level1.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level1.XO.Main" />
+      <module name="GB_FacultyJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level1.XO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level2.Lesson6.Server" />
+      <module name="GB_FacultyJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level2.Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HomeWorkL3L4" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Level1.Lesson8.Calculator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HomeWorkL2L4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="309b2058-197c-4bf5-8f8b-271419cd590b" name="Changes" comment="" />
+      <created>1653226420730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653226420730</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Уровень 1. Задание 2.">
+      <created>1653228592087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228592087</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Уровень 1. Задание 3.">
+      <created>1653397665265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653397665265</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Уровень 1. Задание 4.">
+      <created>1653858724766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653858724766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Уровень 1. Задание 5.">
+      <created>1653859595235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653859595235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Уровень 1. Задание 6.">
+      <created>1654169636559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654169636559</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Уровень 1. Задание 6.">
+      <created>1654429000680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654429000681</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Уровень 2. Задание 1 (ДЗ).">
+      <created>1655721045977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655721045977</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Уровень 2. Задание 1 (ПЕРЕДЕЛАНО).">
+      <created>1655987817657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655987817657</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Уровень 2. Задание 2 (Исключения).">
+      <created>1656195494277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656195494278</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Уровень 2. Задание 3 (Коллекции).">
+      <created>1656500894574</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656500894574</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Уровень 2. Задание 4 (Многопоточность).">
+      <created>1656508305901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656508305901</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Уровень 1. Задание 8 (Калькулятор).">
+      <created>1657056952078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657056952078</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Уровень 3. Задание 4 (ABC).">
+      <created>1660552534921</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660552534922</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Level3Lesson4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Уровень 1. Задание 2." />
+    <MESSAGE value="Уровень 1. Задание 3." />
+    <MESSAGE value="Уровень 1. Задание 4." />
+    <MESSAGE value="Уровень 1. Задание 5." />
+    <MESSAGE value="Уровень 1. Задание 6." />
+    <MESSAGE value="Уровень 2. Задание 1 (ДЗ)." />
+    <MESSAGE value="Уровень 2. Задание 1 (ПЕРЕДЕЛАНО)." />
+    <MESSAGE value="Уровень 2. Задание 2 (Исключения)." />
+    <MESSAGE value="Уровень 2. Задание 3 (Коллекции)." />
+    <MESSAGE value="Уровень 2. Задание 4 (Многопоточность)." />
+    <MESSAGE value="Уровень 1. Задание 8 (Калькулятор)." />
+    <MESSAGE value="Уровень 3. Задание 4 (ABC)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Уровень 3. Задание 4 (ABC)." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Level1/Lesson8/listeners/ButtonListener.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Level1/Lesson8/listeners/PanelReader.java</url>
+          <line>14</line>
+          <properties class="Level1.Lesson8.listeners.PanelReader">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
